@@ -80,4 +80,12 @@ img {
     float: none;
     width: 100%;
   }
+
+  #lezioni .row , #why .row {
+    background-color: rgb(242,242,205);
+  }
+
+  #steps.container.grey , #why.container.grey {
+    background: none;
+  }
 }
