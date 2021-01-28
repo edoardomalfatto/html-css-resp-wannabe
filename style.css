@@ -75,6 +75,10 @@ img {
 /* INIZIO MEDIA QUERY PER RESPONSIVENESS */
 
 @media screen and (max-width: 419px) {
+  *{
+    margin: 0;
+  }
+
   #lezioni .row>.left, #lezioni .row>.right ,
   #steps .row>.left, #steps .row>.central, #steps .row>.right {
     float: none;
