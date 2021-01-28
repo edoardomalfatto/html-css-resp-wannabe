@@ -77,6 +77,8 @@ img {
 @media screen and (max-width: 419px) {
   *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
   #lezioni .row>.left, #lezioni .row>.right ,
@@ -98,16 +100,10 @@ img {
     height: 100px;
   }
 
-  h3 {
-    margin:0;
-  }
   .row {
     margin-top: 0;
   }
 
-  #lezioni .row h1 {
-    margin-top: 0;
-  }
   #why .row h1 ,
   #lezioni .row h1 {
     padding-top: 5vh;
